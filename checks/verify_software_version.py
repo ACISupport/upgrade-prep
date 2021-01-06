@@ -14,7 +14,7 @@ class VerifySoftwareVersion(object):
         on the long-lived and recommended released can be found on cisco.com:
         https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/recommended-release/b_Recommended_Cisco_ACI_Releases.html
     """
-    MINIMUM_VERSION = "3.2(7f)"
+    MINIMUM_VERSION = "3.2(9h)"
     def execute_check(self):
         # check current version against minimum recommended version
         self.success = False
